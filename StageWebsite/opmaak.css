@@ -56,4 +56,28 @@
 
 body{
     font-family: Verdana, sans-serif, Geneva, Tahoma,;
+    margin-right: 0.75%;
+    margin-left: 0.75%;
+}
+
+h1{
+    font-size: 400%;
+    margin-bottom: 1px;
+    margin-top: 2px;    
+}
+
+h2{
+    font-size: 200%;
+    margin-top: 2px;
+}
+
+aside{
+    float: right;
+    border-radius: 22px;
+}
+
+img{
+    width: 500px;
+    border-radius: 20px;
+    border: solid #1F7993 8px;
 }

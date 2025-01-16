@@ -60,6 +60,10 @@ body{
     margin-left: 0.75%;
 }
 
+p{
+    font-size: 120%;
+}
+
 h1{
     font-size: 400%;
     margin-bottom: 1px;

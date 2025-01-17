@@ -78,6 +78,7 @@ h2{
 aside{
     float: right;
     border-radius: 22px;
+    margin-top: 50px;
 }
 
 img{
@@ -87,5 +88,5 @@ img{
 }
 
 .afbeeldingen_index{
-    width: 50%;
+    width: 70%;
 }

@@ -1,58 +1,55 @@
-    .menu-btn {
-        background-color: #1c6377;
-        color: white;
-        padding: 16px;
-        font-weight: bolder;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        border: none;
-    }
+.menu-btn {
+    background-color: #1c6377;
+    color: white;
+    padding: 16px;
+    font-weight: bolder;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
 
-    .dropdown-menu {
-        position: relative;
-        display: inline-block;
-    }
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
 
-    .menu-content {
-        display: none;
-        position: absolute;
-        background-color: #2ca0c0;
-        min-width: 110px;
-        z-index: 1;
-    }
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #2ca0c0;
+    min-width: 110px;
+    z-index: 1;
+}
 
-    nav {
-        background-color: #1F7993;
-        
-    }
+nav {
+    background-color: #1F7993;
+}
 
-    .links,
-    .links-hidden {
-        display: inline-block;
-        color: rgb(255, 255, 255);
-        padding: 8px 12px;
-        padding-left: 15px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+.links,
+.links-hidden {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-    .links-hidden {
-        display: block;
-    }
+.links-hidden {
+    display: block;
+}
 
-    .links {
-        display: inline-block;
-    }
+.links {
+    display: inline-block;
+}
 
-    .links-hidden:hover,
-    .links:hover {
-        transform: scale(1.2);
+.links-hidden:hover,
+.links:hover {
+    transform: scale(1.2);
+}
 
-    }
-
-    .dropdown-menu:hover .menu-content {
-        display: block;
-
-    }
+.dropdown-menu:hover .menu-content {
+    display: block;
+}
 
 body{
     font-family: Verdana, sans-serif, Geneva, Tahoma,;
@@ -79,10 +76,12 @@ aside{
     float: right;
     border-radius: 22px;
     margin-top: 50px;
+    margin-right: 2%;
+    width: 45%;
 }
 
 img{
-    width: 500px;
+    width: 100%;
     border-radius: 20px;
     border: solid #1F7993 8px;
 }
@@ -91,4 +90,51 @@ img{
     width: 70%;
 }
 
+hr{
+    width: 50%;
+    margin-left: 0%;
+}
 
+iframe{
+    padding-left: 1%;
+    width: 98%;
+}
+
+
+@media screen and (max-width: 1024px){
+    aside{
+        float: right;
+    }
+
+    h1{
+        font-size: 400%;
+    }
+
+    h2{
+        font-size: 250%;
+    }
+
+    p{
+        font-size: 200%;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    aside{
+        float: right;
+    }
+
+    h1{
+        font-size: 250%;
+    }
+
+    h2{
+        font-size: 150%;
+    }
+
+    p{
+        font-size: 125%;
+        max-width: 50%;
+    }
+}
